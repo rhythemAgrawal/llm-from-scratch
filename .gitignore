@@ -1,0 +1,22 @@
+# Jupyter and Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+
+# Downloaded datasets (torchvision re-downloads FashionMNIST on first run)
+data/
+
+# Local only: the lecture's own reference code and PyTorch warm-up notebooks
+reference/
+pytorch_basics/
+
+# Secrets
+.env
+*api_key*
+
+# macOS
+.DS_Store
